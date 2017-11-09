@@ -36,10 +36,10 @@ class App extends Component {
           <div>*******</div>
         </div>
         <button>Click me</button>
-        
-          <h3>Inside the Studio</h3>
-          
-          <Typist className="typewriter">
+
+        <h3>Inside the Studio</h3>
+
+        <Typist className="typewriter">
           <Typist.Delay ms={500} />
           <span>Wanna see how it's done?</span>
           <Typist.Backspace count={24} delay={2000} />
@@ -53,10 +53,19 @@ class App extends Component {
           <Typist.Backspace count={36} delay={2000} />
           <span> Step 4 - apply horse hair </span>
           <Typist.Backspace count={18} delay={2000} />
-          <span>  or peacock feathers </span>
+          <span> or peacock feathers </span>
           <Typist.Backspace count={30} delay={2000} />
-          <span></span>
+          <span />
         </Typist>
+
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       </div>
     );
   }
