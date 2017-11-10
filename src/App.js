@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Typist from "react-typist";
+import icon from './warningIcon.png';
 
 class App extends Component {
   constructor() {
@@ -67,6 +68,10 @@ class App extends Component {
             <a href="#">Link 4</a>
           </div>
         </div>
+        <button type='' className='alert_button'>Click Me</button>
+        <div className='oops'>
+          <img className='icon' src={ icon }/>
+          <span>OOPS! Sorry, unfortunately the artist is not ready to do business. Try back in like ... 5 years or something.</span></div>
       </div>
     );
   }

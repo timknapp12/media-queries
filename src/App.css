@@ -198,3 +198,37 @@
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+.oops {
+  height: 300px;
+  width: 700px;
+  background-color: yellow;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  overflow: hidden;
+  margin-top: 40px;
+  transition: all 8s ease-in 1s;
+  /* transform-origin: bottom left; */
+  transform: scale(.85);
+  opacity: 0;
+}
+
+.icon {
+  height: 170px;
+  width: auto;
+}
+
+.alert_button {
+  margin-top: 40px;
+}
+
+.alert_button:active ~ .oops {
+    opacity: 1;
+    transform: scale(1);
+    transition: 0s;
+}
+
