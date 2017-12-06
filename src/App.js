@@ -72,6 +72,7 @@ class App extends Component {
         <div className='oops'>
           <img className='icon' src={ icon }/>
           <span>OOPS! Sorry, unfortunately the artist is not ready to do business. Try back in like ... 5 years or something.</span></div>
+          <div>To do sockets chat, start the server and go to localhost 3030</div> 
       </div>
     );
   }
